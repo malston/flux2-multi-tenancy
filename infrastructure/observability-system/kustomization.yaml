@@ -4,7 +4,6 @@ kind: Kustomization
 namespace: observability-system
 
 resources:
-  - namespace.yaml
   - https://github.com/wavefrontHQ/observability-for-kubernetes/releases/download/v2.9.0/wavefront-operator.yaml
 
 patches:
